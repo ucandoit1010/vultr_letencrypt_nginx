@@ -26,7 +26,7 @@ server {
 
 ```nginx -t```
 
-## 你要使用HTTPS 的網址
+## 4.你要使用HTTPS 的網址
 ```certbot --nginx --redirect -d domain.tw -d www.domain.tw -m yourmail@gmail.com --agree-tos```
 
 certbot 將自動對 nginx 設定檔追加 ssl 區塊
